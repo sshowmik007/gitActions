@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+
+.btn{
+    @apply text-white text-xl bg-purple-500 rounded-md  shadow-md p-3 hover:scale-105 ease-in duration-200 hover:bg-blue-400 mobile:p-2 mobile:text-sm
+}
+
+
+@tailwind utilities;
